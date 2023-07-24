@@ -1,0 +1,7 @@
+package com.example.demo.repository;
+
+import com.example.demo.entity.StudentDetails;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface StudentDetailsRepository extends JpaRepository<StudentDetails,Integer> {
+}
